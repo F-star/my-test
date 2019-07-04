@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旋转控制</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #workarea {
+            width: 500px;
+            height: 500px;
+            /* border: 1px solid #333; */
+            background-color: #796d83;
+        }
+        svg *{
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="workarea" d>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.6/svg.js"></script>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>

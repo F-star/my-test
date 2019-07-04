@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="a">
+            <feGaussianBlur stdDeviation="1" />
+        </filter>
+    </defs>
+    <circle cx="300" cy="300" r="20" fill="#f04" filter="url(#a)"></circle>
+</svg>
+
