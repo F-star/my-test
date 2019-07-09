@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+}
+button {
+    padding: 2px 6px;
+}
+
+#workarea {
+    /* width: 800px;
+    height: 600px; */
+    width: 100%;
+    height: 100%;
+    // border: 1px solid #333;
+    overflow: auto;
+}
+
+#rotate-grip:hover {
+    fill: #000;
+}
+
+#svgroot {
+    background-color: #f2f3f5;
+}
+
+.btns {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    li {
+        margin-right: 8px;
+        display: inline-block;
+    }
+}
+
+.data-input {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    .data-input-inner {
+        position: absolute;
+        // background-color: #b0b0b0;
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+    }
+
+    textarea {
+        // width: 100%;
+        // height: 100%;
+        position: absolute;
+        top: 30px;
+        bottom: 20px;
+        // height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    .data-input-btns {
+        li {
+            float: left;
+            margin-right: 10px;
+        }
+    }
+    /* .close-btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+            color: rgb(219, 94, 127);
+        }
+    } */
+}
+
+.animation-move {
+    stroke-dasharray: 9990;
+    stroke-dashoffset: 0;
+    animation: dash 50s linear;
+}
+
+@keyframes dash {
+    from {
+      stroke-dashoffset: 9990;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+}
