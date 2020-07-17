@@ -17,7 +17,7 @@
   "dependencies": {
     "@svgdotjs/svg.js": "^3.0.13",
     "@svgdotjs/svg.topath.js": "^2.0.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "svg.js": "^2.7.1"
   }
 }
